@@ -6,3 +6,4 @@
 3. Changed div in header to semantic nav.
 4. Changed div class content to semantic main
 5. Changed div class footer to semantic footer
+6. Re-ordered style sheet to flow logically

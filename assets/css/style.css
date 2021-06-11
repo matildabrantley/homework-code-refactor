@@ -1,3 +1,4 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -20,7 +21,8 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* span "seo" in Horiseon */
+header h1 #seo {
     color: #d9dcd6;
 }
 
@@ -46,10 +48,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 #hero {
     height: 800px;
     width: 100%;
@@ -58,6 +56,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 
 main {
     width: 75%;
@@ -129,6 +128,8 @@ main {
     margin-left: 25px;
 }
 
+
+/* right-side benefits section */
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -151,6 +152,7 @@ main {
     max-width: 150px;
 }
 
+/* individual benefit style */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
